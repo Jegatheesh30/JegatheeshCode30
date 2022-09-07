@@ -9,14 +9,16 @@ public class WhileLoop {
 		System.out.println("enter an integer");
 		int num=in.nextInt();
 		int reverse =0;
+		int check=num;
 		while(num>0)
+			
 		{
 			int r=num%10;
 			reverse=(reverse*10)+r;
 			num=num/10;
 		}
 		System.out.print(reverse);
-		if(reverse==num)
+		if(reverse==check)
 			System.out.println("= palindrom");
 		else
 			System.out.println("= not palindrom");
