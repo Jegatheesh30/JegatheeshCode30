@@ -3,7 +3,9 @@ package Assignment;
 public class PrintingPrimeNumber1to100 {
 
 	public static void main(String[] args) {
+		{
 		      int i, j, chk;
+		      
 		      System.out.println("---Prime Numbers from 1 to 100---");
 		      for(i=2; i<=100; i++)
 		      {
@@ -19,6 +21,6 @@ public class PrintingPrimeNumber1to100 {
 		         if(chk==0)
 		            System.out.println(i);
 		      }
+	}
 
-	}
-	}
+	}}
