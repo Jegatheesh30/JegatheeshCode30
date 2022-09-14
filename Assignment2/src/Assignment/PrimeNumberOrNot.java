@@ -1,7 +1,7 @@
 package Assignment;
 ;
 
-public class PrimeNumber {
+public class PrimeNumberOrNot {
 	public static void main(String[] args) {
 	int n=83;
 	int m=2;
