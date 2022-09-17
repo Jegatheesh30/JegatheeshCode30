@@ -5,7 +5,7 @@ public class Sample {
 	public static void main(String[] args) {
 		double number; 
 		double sum=0.0;
-		while(1>0) {
+		while(true) {
 			Scanner input=new Scanner(System.in);
 			System.out.println("Enter number");
 			number=input.nextDouble();
