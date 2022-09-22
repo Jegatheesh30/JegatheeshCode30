@@ -6,7 +6,8 @@ public class Array2RightRotateWithNestedLoop {
 		int a[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		int i;
 		
-		for (int k = 0; k < 4; k++) {
+		for (int k = 0; k < 4; k++)    //rotate happens at 4 times
+		{  
 			i = a[a.length - 1];
 			for (int t = a.length - 1; t > 0; t--) {
 				a[t] = a[t - 1];
