@@ -8,7 +8,6 @@ public class FindingIndexOfGivenNumber {
 		for (int i = 0; i < array.length; i++) {
 			if (x == array[i])
 				System.out.println("The index of given Number in Array =" + i);
-
 		}
 	}
 }
