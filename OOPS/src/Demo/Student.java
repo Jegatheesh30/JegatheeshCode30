@@ -11,6 +11,7 @@ public class Student {
 		System.out.println(mark);
 	}*/
 
+	
 	public static void main(String[] args) {
 		Student s1 = new Student();
 		s1.rollNo=101;

@@ -1,15 +1,25 @@
 package Demo;
-
 public class test {
-
-	public static void main(String[] args) {
-		int n=3;
-		int i=0;
-		int p=1;
-		for(i=1,p=1;i<=n;i++) {
-			for(int j=1;j<=n;j++) {
-				System.out.print(p+++" ");
-			}System.out.println();
+	int fact(int n)
+	{
+		int f=1;
+		for(int i=1;i<=n;i++) {
+			f=f*i;
 		}
+		return f;
 	}
-}
+	public static void main(String [] args) {
+		test p =new test();
+		int a=p.fact(4);
+		int b=p.fact(6);
+		System.out.println(a);
+		System.out.println(b);
+	/*	int sum=0;
+		for(int i=1;i<10;i++) {
+			int a=p.fact(i);
+			
+			sum=a+sum;		
+		}*/
+		
+	}
+	}
