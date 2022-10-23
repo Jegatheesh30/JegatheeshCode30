@@ -1,10 +1,9 @@
 
 public class pattern4 {
-
-	public static void main(String[] args) {
+	
+	void pattern(int n) {
 		int i=1;
 		int j=1;
-		int n=5;
 		int alphabet=65;
 		for(i=0;i<=n;i++) {
 			for(j=0;j<=i;j++) {
@@ -12,6 +11,11 @@ public class pattern4 {
 			}System.out.println();
 		}
 
+	}
+
+	public static void main(String[] args) {
+		pattern4 obj=new pattern4();
+		obj.pattern(5);
 	}
 
 }
