@@ -1,22 +1,15 @@
 package practice;
 
 public class Main {
-	int a=5;
-	int b=10;
-	int result;
+	int x;
 	
-	Main(){
-		result=a+b;
-		System.out.println("the result for normal "+ result);
+	public Main(int x) {
+		
+		System.out.println(x);
 	}
-	Main(int a, int b){
-		result=a+b;
-		System.out.println("the result for overloaded "+ result);
-	}
-	
-	public static void main(String[] args) {
-		Main obj=new Main();
-		Main obj1=new Main(923,232);
+	public static void main(String [] args) {
+		Main obj=new Main(23);
+		System.out.println("value of x = " + obj.x);
 		
 	}
 }
